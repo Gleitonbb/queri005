@@ -11,6 +11,10 @@ body, html{
 }
 header{
     background-color: rgb(179, 176, 176);
+     margin: auto;
+    padding-bottom: 10px;
+    width: 92vw;
+    border-radius: 10px;
 }
 header > H1{
     padding: 10PX;
@@ -22,6 +26,7 @@ menu{
 }
 menu > ul{
     list-style-type: none;
+    
 }
 menu > ul > li > a{
    display: block; 
@@ -30,11 +35,11 @@ menu > ul > li > a{
    text-align: center;
    background-color: gray;
    color: white;
-   border-top: 2px solid white;
-   
+   border-top: 1px solid rgb(194, 191, 187);
 }
 menu > ul > li > a:hover {
     background-color: rgb(88, 86, 86);
+    
    
 }
 main{
